@@ -1,8 +1,6 @@
 from PIL import Image
 from random import randint
 
-img = Image.open(input())
-
 
 def kek():
     j = 0
@@ -103,7 +101,3 @@ def cascade():
             i += 1
         j += 1
     img = img.transpose(Image.ROTATE_180)
-
-
-cascade()
-img.show()
